@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Dosis", sans-serif;
+}
+html {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: #9ec8b9;
+  font-size: 48px;
+}
+body {
+  background-color: #191919;
+}
+.calculator {
+  margin: 20px;
+  padding: 20px;
+  background-color: #092635;
+  height: 396px;
+  border-radius: 35px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+}
+.button {
+  border-radius: 50%;
+  height: 56px;
+  background-color: #1b4242;
+  color: #9ec8b9;
+  font-weight: 900;
+  font-size: 18px;
+}
+#inputNumber {
+  grid-column: span 4;
+  border-radius: 18px;
+  width: 240px;
+  order: 0;
+  height: 50px;
+  background-color: #9ec8b9;
+  font-size: 28px;
+  padding: 10px;
+  color: #1b4242;
+  font-weight: 900;
+}
+#allClear {
+  order: 1;
+}
+#delete {
+  order: 2;
+}
+#devide {
+  order: 3;
+}
+
+#plus {
+  order: 12;
+}
+#minus {
+  order: 8;
+}
+#multiply {
+  order: 4;
+}
+#equalTo {
+  grid-column: -1/-2;
+  grid-row: 5/7;
+  order: 30;
+  height: 122px;
+  border-radius: 28px;
+}
+#one {
+  order: 13;
+}
+#two {
+  order: 14;
+}
+#three {
+  order: 15;
+}
+#four {
+  order: 9;
+}
+#five {
+  order: 10;
+}
+#six {
+  order: 11;
+}
+#seven {
+  order: 5;
+}
+#eight {
+  order: 6;
+}
+#nine {
+  order: 7;
+}
+#zero {
+  order: 17;
+}
+#doubleZero {
+  order: 18;
+}
+#decimal {
+  order: 19;
+}
+.orange {
+  background-color: #ff6000;
+}
